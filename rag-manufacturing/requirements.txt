@@ -1,35 +1,20 @@
-# ===== AI 核心 =====
-langchain              # LangChain框架，RAG全流程编排
-langchain-milvus       # LangChain的Milvus集成，向量库操作
-langchain-community    # LangChain社区组件（文档加载器等）
-milvus                 # Milvus Lite，嵌入式向量数据库（API和Milvus服务端完全一样）
-
-# ===== Web框架 =====
-fastapi                # 高性能异步Web框架
-uvicorn                # ASGI服务器，跑FastAPI用的
-python-multipart       # FastAPI上传文件需要
-
-# ===== 文档处理 =====
-pymupdf                # PDF解析（就是fitz库）
-python-docx            # Word文档解析
-fpdf2                  # 生成PDF文件（造示例文档用）
-
-# ===== 检索相关 =====
-rank-bm25              # BM25关键词检索算法
-jieba                  # 中文分词（BM25需要）
-
-# ===== 数据库 & 缓存 =====
-pymysql                # MySQL Python客户端
-sqlalchemy             # ORM，统一操作MySQL
-redis                  # Redis客户端
-
-# ===== 消息队列 =====
-rocketmq-client-python # RocketMQ Python客户端
-
-# ===== LLM =====
-dashscope              # 阿里云DashScope SDK（通义千问API）
-
-# ===== 工具 =====
-pydantic               # 数据校验（FastAPI依赖）
-python-dotenv          # 读取.env配置文件
-pydantic-settings      # Pydantic配置管理
+langchain
+langchain-milvus
+langchain-community
+milvus
+fastapi
+uvicorn
+python-multipart
+pymupdf
+python-docx
+fpdf2
+rank-bm25
+jieba
+pymysql
+sqlalchemy
+redis
+rocketmq-client-python
+dashscope
+pydantic
+python-dotenv
+pydantic-settings
