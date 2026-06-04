@@ -74,53 +74,29 @@ class NumberedPDF(FPDF):
         self.cell(0, 10, f"第 {self.page_no()} 页", align="C")
 
     def draw_table(self, headers: list, rows: list, col_widths: list = None):
-        """在PDF中绘制表格
-        headers: 表头列表
-        rows: 数据行列表，每行也是一个列表
-        col_widths: 每列宽度，None则均分
-        """
+        """在PDF中绘制表格，纯 cell() 方式，稳定可靠"""
         if col_widths is None:
             usable = self.w - 2 * self.l_margin
             col_widths = [usable / len(headers)] * len(headers)
-        line_h = 7  # 行高
+        line_h = 8
 
         # ── 表头 ──
-        self.set_font("st", "B", 10)
+        self.set_font("st", "B", 9)
         self.set_fill_color(220, 220, 220)
-        for i, (h, w) in enumerate(zip(headers, col_widths)):
-            self.cell(w, line_h, h, border=1, fill=True, align="C")
+        for h, w in zip(headers, col_widths):
+            self.cell(w, line_h, str(h), border=1, fill=True, align="C")
         self.ln()
 
         # ── 数据行 ──
         self.set_font("st", size=9)
         for row_idx, row in enumerate(rows):
-            # 交替行背景色
             if row_idx % 2 == 0:
                 self.set_fill_color(250, 250, 250)
             else:
                 self.set_fill_color(255, 255, 255)
-
-            # 计算本行最大高度
-            max_lines = 1
-            cell_texts = []
-            for i, (cell_text, w) in enumerate(zip(row, col_widths)):
-                text = str(cell_text)
-                # 估算需要的行数
-                char_per_line = max(1, int(w / self.get_string_width("测")))
-                lines = (len(text) + char_per_line - 1) // char_per_line
-                max_lines = max(max_lines, lines)
-                cell_texts.append((text, lines))
-
-            row_h = line_h * max_lines
-            x_start = self.get_x()
-
-            for i, (cell_text, lines) in enumerate(cell_texts):
-                w = col_widths[i]
-                self.set_xy(x_start + sum(col_widths[:i]), self.get_y())
-                # 用 multi_cell 画多行文本
-                self.multi_cell(w, line_h, cell_text, border=1, fill=True, align="L")
-
-            self.set_xy(x_start, self.get_y())
+            for cell_text, w in zip(row, col_widths):
+                self.cell(w, line_h, str(cell_text), border=1, fill=True, align="L")
+            self.ln()
 
         self.ln(4)
 
