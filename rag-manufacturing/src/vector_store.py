@@ -69,6 +69,11 @@ class VectorStore:
             for doc in documents
         ]
 
+        # 注入文档的权限到 metadatas
+        from retrieval.permission import PermissionManager
+        perm_mgr = PermissionManager()
+        metadatas = perm_mgr.enrich_metadatas(metadatas)
+
         # 5. 批量写入（ChromaDB 自动分批 + 建索引）
         self.collection.add(
             ids=ids,

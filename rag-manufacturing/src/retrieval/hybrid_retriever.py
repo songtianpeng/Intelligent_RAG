@@ -24,7 +24,7 @@ class HybridRetriever:
         self.mmr_lambda = mmr_lambda  # MMR 相关性 vs 多样性权重  λ 越大 → 越强调相关性，可能重复
 
     def search(self, question: str, query_vector: List[float],
-               top_k: int = 5) -> List[Dict]:
+               top_k: int = 5,where_filter = None) -> List[Dict]:
         """
         混合检索入口
         Args:
@@ -36,7 +36,7 @@ class HybridRetriever:
         """
         # ── 第一阶段：分别检索 ──
         bm25_results = self.bm25.search(question, top_k=10)
-        vector_results = self.vector.search(query_vector, top_k=10)
+        vector_results = self.vector.search(query_vector, top_k=10, where_filter=where_filter)
 
         # ── 第二阶段：RRF 融合 ──
         fused = self._rrf_fusion(bm25_results, vector_results)

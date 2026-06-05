@@ -41,9 +41,69 @@ class AnswerGenerator:
     - 故障处理类先说明原因再给解决方案
     - 引用具体参数值或参考资料时注明出处（如"根据操作手册，额定值为..."）"""
 
-    def __init__(self, api_key: str, model: str = "qwen-plus"):
+    def __init__(self, api_key: str, model: str = "qwen-plus", cache=None):
         self.api_key = api_key
         self.model = model
+        self.cache = cache
+
+    def generate_stream(self, question: str, chunks: List[Dict]):
+        """
+        流式生成答案，逐 token yield
+
+        【原理】
+        DashScope stream=True + incremental_output=True：
+        每个 event 是 LLM 新生成的一个或几个 token，
+        Generator 函数逐个 yield 给上层（FastAPI SSE），
+        前端逐字渲染——首 token 延迟 ~1.5s，用户感知更快。
+        """
+        # 构建 Prompt（跟 generate 一样）
+        context_parts = []
+        for i, chunk in enumerate(chunks):
+            context_parts.append(f"[参考资料{i+1}]\n{chunk['text']}")
+        context = "\n\n".join(context_parts)
+
+        messages = [
+            {"role": "system", "content": self.SYSTEM_PROMPT},
+            {"role": "user", "content": f"参考资料：\n\n{context}\n\n用户问题：{question}"},
+        ]
+
+        # 提取来源（在流式开始前就准备好）
+        sources = []
+        seen = set()
+        for chunk in chunks:
+            src = chunk["metadata"].get("source", "未知")
+            page = chunk["metadata"].get("page", "?")
+            heading = chunk["metadata"].get("heading_path", "")
+            key = f"{src}#{page}"
+            if key not in seen:
+                seen.add(key)
+                if heading:
+                    sources.append(f"{src} 第{page}页（{heading}）")
+                else:
+                    sources.append(f"{src} 第{page}页")
+
+        resp = Generation.call(
+            model=self.model,
+            messages=messages,
+            api_key=self.api_key,
+            result_format="message",
+            stream=True,
+            incremental_output=True,
+        )
+
+        full_answer = ""
+        for event in resp:
+            if event.status_code == 200:
+                token = event.output.choices[0].message.content
+                full_answer += token
+                yield {"token": token, "done": False}
+
+        # 最后一个 event 带上来源和完整答案
+        yield {"token": "", "done": True, "answer": full_answer, "sources": sources}
+
+        # 写入缓存
+        if self.cache:
+            self.cache.set(question, {"answer": full_answer, "sources": sources})
 
     def generate(self, question: str, chunks: List[Dict]) -> Dict:
         """
@@ -56,19 +116,26 @@ class AnswerGenerator:
         Returns:
             {"answer": "回答内容", "sources": ["来源1", "来源2"]}
         """
-        # 1. 拼参考资料（每个 chunk 编号）
+        # 1. 查缓存
+        if self.cache:
+            cached = self.cache.get(question)
+            if cached:
+                cached["from_cache"] = True
+                return cached
+        # 2.正常生成
+        # 3. 拼参考资料（每个 chunk 编号）
         context_parts = []
         for i, chunk in enumerate(chunks):
             context_parts.append(f"[参考资料{i+1}]\n{chunk['text']}")
         context = "\n\n".join(context_parts)
 
-        # 2. 构造完整 messages
+        # 4. 构造完整 messages
         messages = [
             {"role": "system", "content": self.SYSTEM_PROMPT},
             {"role": "user", "content": f"参考资料：\n\n{context}\n\n用户问题：{question}"},
         ]
 
-        # 3. 调用 LLM
+        # 5. 调用 LLM
         resp = Generation.call(
             model=self.model,
             messages=messages,
@@ -81,7 +148,7 @@ class AnswerGenerator:
 
         answer = resp.output.choices[0].message.content
 
-        # 4. 提取来源（去重，只保留实际用到的 chunk）
+        # 6. 提取来源（去重，只保留实际用到的 chunk）
         sources = []
         seen = set()
         for chunk in chunks:
@@ -96,16 +163,21 @@ class AnswerGenerator:
                 else:
                     sources.append(f"{src} 第{page}页")
 
+        # 3. 写入问答缓存
+        if self.cache:
+            self.cache.set(question, {"answer": answer, "sources": sources})
+
         return {"answer": answer, "sources": sources}
 
 
 if __name__ == "__main__":
-    import os, sys
+    import os, sys,time
     sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
     from config import settings
     from document_loader import DocumentLoader
     from embedding import EmbeddingService
     from vector_store import VectorStore
+    from cache import QACache
 
     # —— 建库（跟之前一样） ——
     print("加载文档 + 建库...")
@@ -116,18 +188,22 @@ if __name__ == "__main__":
     store = VectorStore(db_path=db_path)
     # store.build(chunks, emb_svc)
 
+    # 构建缓存
+    cache = QACache()
     # —— 问答 ——
-    gen = AnswerGenerator(api_key=settings.DASHSCOPE_API_KEY,model="qwen-plus")
+    gen = AnswerGenerator(api_key=settings.DASHSCOPE_API_KEY,model="qwen-plus",cache=cache)
     questions = [
         "E03报警怎么办？",
-        "注塑机开机前需要检查什么？",
+        "E03报警怎么办？",
     ]
     for q in questions:
+        start = time.perf_counter() # 计时开始
         print(f"\n{'='*50}")
         print(f"问题：{q}")
         q_vec = emb_svc.embed_query(q)
         retrieved = store.search(q_vec, top_k=3)
         result = gen.generate(q, retrieved)
+        print(f"耗时：{time.perf_counter() - start:.6f} 秒")
         print(f"\n回答：\n{result['answer']}")
         print(f"\n来源：")
         for s in result["sources"]:

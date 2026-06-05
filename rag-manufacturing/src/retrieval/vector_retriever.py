@@ -19,7 +19,7 @@ class VectorRetriever:
         """保存 chunk 列表引用（向量库已经建好了，这里只存映射）"""
         self.chunks = chunks
 
-    def search(self, query_vector: List[float], top_k: int = 10) -> List[Tuple[int, float]]:
+    def search(self, query_vector: List[float], top_k: int = 10,where_filter=None) -> List[Tuple[int, float]]:
         """
         向量检索
 
@@ -34,7 +34,7 @@ class VectorRetriever:
             所以返回时用 (index, 1 - distance) 转成"相似度分数"
             这样跟 BM25 的分数方向一致——都是越大越好
         """
-        results = self.store.search(query_vector, top_k=top_k)
+        results = self.store.search(query_vector, top_k=top_k, where_filter=where_filter)
 
         output = []
         for hit in results:
