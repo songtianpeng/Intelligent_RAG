@@ -1,0 +1,67 @@
+{
+  "total_pdf": 73,
+  "bad_heading": 34,
+  "good_heading": 39,
+  "bad_samples": [
+    {
+      "page": 1,
+      "chunk_type": "table",
+      "heading_path": "01_注塑机操作手册.pdf",
+      "content_preview": "01_注塑机操作手册.pdf\n参数\t数值\t单位\n螺杆直径\t80/90/100\tmm\n最大锁模力\t1200\t吨\n注射压力\t180\tMPa\n注射速率\t450\tcm³/s\n螺杆转速\t0-120\trpm\n加热功率\t45\tkW\n工作电压\t380\tV/50Hz"
+    },
+    {
+      "page": 1,
+      "chunk_type": "text",
+      "heading_path": "",
+      "content_preview": "\n注塑机操作手册"
+    },
+    {
+      "page": 2,
+      "chunk_type": "table",
+      "heading_path": "01_注塑机操作手册.pdf",
+      "content_preview": "01_注塑机操作手册.pdf\n加热区段\t设定温度(度)\t允许偏差(度)\n第一段(料斗侧)\t180-200\t±5\n第二段\t200-220\t±5\n第三段\t220-240\t±5\n第四段\t230-250\t±5\n喷嘴\t240-260\t±3"
+    },
+    {
+      "page": 2,
+      "chunk_type": "table",
+      "heading_path": "01_注塑机操作手册.pdf",
+      "content_preview": "01_注塑机操作手册.pdf\n参数\t数值(MPa)\t说明\n注射压力\t80-180\t根据材料和模具调整\n保压压力\t60-120\t一般为注射压力的60%-80%\n背压\t5-15\t螺杆回退时料筒内压力\n锁模压力\t800-1200\t根据模具面积计算"
+    },
+    {
+      "page": 2,
+      "chunk_type": "table",
+      "heading_path": "01_注塑机操作手册.pdf",
+      "content_preview": "01_注塑机操作手册.pdf\n禁止操作\t后果\n屏蔽安全门开关\t可能导致人员重伤或死亡\n自动模式下手动操作\tPLC程序冲突可能导致设备损坏\n超过最大注射量生产\t导致螺杆过载断裂\n无冷却水情况下加热\t导致料筒变形报废\n擅自修改PLC参数\t导致生产工艺失控"
+    },
+    {
+      "page": 1,
+      "chunk_type": "table",
+      "heading_path": "02_故障码手册.pdf",
+      "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t加热圈电阻值异常（正常15-25Ω）\n解决方案\t1.万用表测量加热圈电阻 2.更换断路加热圈 3.检查固态继电器"
+    },
+    {
+      "page": 1,
+      "chunk_type": "table",
+      "heading_path": "02_故障码手册.pdf",
+      "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t温度显示----或跳变\n解决方案\t1.检查热电偶接线端子是否松动 2.用标准温度计比对 3.更换热电偶"
+    },
+    {
+      "page": 1,
+      "chunk_type": "table",
+      "heading_path": "02_故障码手册.pdf",
+      "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t电机电流超过额定值120%持续3秒\n解决方案\t1.检查机械传动是否卡滞 2.测量三相电压平衡 3.降低负载后重启"
+    },
+    {
+      "page": 1,
+      "chunk_type": "table",
+      "heading_path": "02_故障码手册.pdf",
+      "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t变频器面板显示Err代码\n解决方案\t1.记录Err代码查阅变频器手册 2.断电5分钟后重启 3.联系厂家技术"
+    },
+    {
+      "page": 1,
+      "chunk_type": "table",
+      "heading_path": "02_故障码手册.pdf",
+      "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t前后安全门行程开关信号不一致\n解决方案\t1.检查安全门是否完全关闭 2.清洁行程开关触点 3.更换损坏的行程"
+    }
+  ]
+}

@@ -214,8 +214,7 @@ class DocumentLoader:
             (3, r"^\d+\.\d+\.\d+"),
             (2, r"^\d+\.\d+"),
             (1, r"^第[一二三四五六七八九十百千万\d]+章"),
-            (1, r"^\d+\s+[^\d\s].*$"),
-            (1, r"^\d{1,2}[^\d\s].+$"),
+            (1, r"^\d+(?!\.)(?:\s*)[^\d\s].*$"),
             (1, r"^附录[A-Z]"),
         ]
         # 每一个和匹配的标题层级模板，都进行正则匹配
@@ -239,8 +238,7 @@ class DocumentLoader:
             (3, r"^\d+\.\d+\.\d+"),
             (2, r"^\d+\.\d+"),
             (1, r"^第[一二三四五六七八九十百千万\d]+章"),
-            (1, r"^\d+\s+[^\d\s].*$"),
-            (1, r"^\d{1,2}[^\d\s].+$"),
+            (1, r"^\d+(?!\.)(?:\s*)[^\d\s].*$"),
             (1, r"^附录[A-Z]"),
         ]
         # 每一个和匹配的标题层级模板，都进行正则匹配
@@ -389,11 +387,11 @@ class DocumentLoader:
 
 
 if __name__ == '__main__':
-    pass
-    # loader = DocumentLoader()
-    # chunks = loader.load_all()
-    # for i,chunk in enumerate(chunks):
-    #     print(f"第{i+1}chunk,内容是：{chunk.page_content},溯源信息是：{chunk.metadata}")
+    # pass
+    loader = DocumentLoader()
+    chunks = loader.load_all()
+    for i,chunk in enumerate(chunks):
+        print(f"第{i+1}chunk,内容是：{chunk.page_content},溯源信息是：{chunk.metadata}")
 
     # source = os.path.basename("../data/docx/01_注塑机操作手册.docx")  # 从完整文件路径中提取文件名
     # doc = DocxDocument("../data/docx/01_注塑机操作手册.docx")  # 打开docx文件

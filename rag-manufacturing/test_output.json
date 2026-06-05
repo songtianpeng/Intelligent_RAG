@@ -1,0 +1,890 @@
+[
+  {
+    "source": "01_注塑机操作手册.docx",
+    "page": 1,
+    "heading_path": "目录",
+    "chunk_type": "text",
+    "content_len": 40,
+    "content_preview": "目录\n[打开Word后，右键此处 → 更新域，即可自动生成目录]\n注塑机操作手册"
+  },
+  {
+    "source": "01_注塑机操作手册.docx",
+    "page": 1,
+    "heading_path": "第一章 设备概述 > 1.1 设备简介",
+    "chunk_type": "text",
+    "content_len": 124,
+    "content_preview": "第一章 设备概述 > 1.1 设备简介\nHTF1200型卧式注塑机是本公司主力生产设备，采用伺服电机驱动和双缸注射系统，适用于热塑性塑料的精密成型加工。最大锁模力1200吨，注射量2000~8000克，可加工PP、ABS、PA、PC等常用工程塑料。"
+  },
+  {
+    "source": "01_注塑机操作手册.docx",
+    "page": 1,
+    "heading_path": "第一章 设备概述 > 1.2 主要技术参数",
+    "chunk_type": "table",
+    "content_len": 125,
+    "content_preview": "第一章 设备概述 > 1.2 主要技术参数\n\t\t\n螺杆直径\t80/90/100\tmm\n最大锁模力\t1200\t吨\n注射压力\t180\tMPa\n注射速率\t450\tcm³/s\n螺杆转速\t0-120\trpm\n加热功率\t45\tkW\n工作电压\t380\tV/50Hz"
+  },
+  {
+    "source": "01_注塑机操作手册.docx",
+    "page": 1,
+    "heading_path": "第二章 操作流程 > 2.1 开机前检查",
+    "chunk_type": "list",
+    "content_len": 125,
+    "content_preview": "第二章 操作流程 > 2.1 开机前检查\n1. 检查液压油位是否在油标中位以上。\n2. 确认冷却水阀门已打开，水压在0.3-0.5MPa。\n3. 检查安全门行程开关是否灵敏。\n4. 确认料筒内无异物，料斗有料。\n5. 检查各润滑点是否有足够的润滑油。"
+  },
+  {
+    "source": "01_注塑机操作手册.docx",
+    "page": 1,
+    "heading_path": "第二章 操作流程 > 2.2 正常启动步骤",
+    "chunk_type": "list",
+    "content_len": 174,
+    "content_preview": "第二章 操作流程 > 2.2 正常启动步骤\n1. 合上主电源开关，控制面板亮起。\n2. 启动液压泵电机，检查运转方向是否正确。\n3. 设置料筒各段加热温度，等待升温至设定值（约30分钟）。\n4. 温度达到后，手动低速对空注射，确认熔料均匀无气泡。\n5. 安装模具，调整锁模力至工艺卡要求。\n6. 手动"
+  },
+  {
+    "source": "01_注塑机操作手册.docx",
+    "page": 1,
+    "heading_path": "第二章 操作流程 > 2.3 停机操作",
+    "chunk_type": "list",
+    "content_len": 100,
+    "content_preview": "第二章 操作流程 > 2.3 停机操作\n1. 将料筒温度降至保温温度（150-180度）。\n2. 关闭料斗下料口，排空料筒余料。\n3. 模具合模但不加压，关闭液压泵。\n4. 断开主电源，做好交接记录。"
+  },
+  {
+    "source": "01_注塑机操作手册.docx",
+    "page": 1,
+    "heading_path": "第三章 参数设置 > 3.1 温度参数",
+    "chunk_type": "table",
+    "content_len": 101,
+    "content_preview": "第三章 参数设置 > 3.1 温度参数\n\t\t\n第一段（料斗侧）\t180-200\t±5\n第二段\t200-220\t±5\n第三段\t220-240\t±5\n第四段\t230-250\t±5\n喷嘴\t240-260\t±3"
+  },
+  {
+    "source": "01_注塑机操作手册.docx",
+    "page": 1,
+    "heading_path": "第三章 参数设置 > 3.2 压力参数",
+    "chunk_type": "table",
+    "content_len": 114,
+    "content_preview": "第三章 参数设置 > 3.2 压力参数\n\t\t\n注射压力\t80-180\t根据材料和模具调整\n保压压力\t60-120\t一般为注射压力的60%-80%\n背压\t5-15\t螺杆回退时料筒内压力\n锁模压力\t800-1200\t根据模具面积计算"
+  },
+  {
+    "source": "01_注塑机操作手册.docx",
+    "page": 1,
+    "heading_path": "第四章 安全规范 > 4.1 个人防护要求",
+    "chunk_type": "text",
+    "content_len": 56,
+    "content_preview": "第四章 安全规范 > 4.1 个人防护要求\n操作人员必须穿戴防烫手套、安全鞋和护目镜。禁止佩戴手套操作控制面板。"
+  },
+  {
+    "source": "01_注塑机操作手册.docx",
+    "page": 1,
+    "heading_path": "第四章 安全规范 > 4.2 紧急停止程序",
+    "chunk_type": "list",
+    "content_len": 140,
+    "content_preview": "第四章 安全规范 > 4.2 紧急停止程序\n发生以下情况立即按下急停按钮（红色蘑菇头）：\n1. 模具或机械部件出现异常响声或振动。\n2. 料筒温度失控持续上升。\n3. 液压管路爆裂或严重泄漏。\n4. 人员或异物进入合模区域。\n急停后需由班组长和维修人员共同确认故障排除后方可复位。"
+  },
+  {
+    "source": "01_注塑机操作手册.docx",
+    "page": 1,
+    "heading_path": "第四章 安全规范 > 4.3 禁止操作清单",
+    "chunk_type": "table",
+    "content_len": 138,
+    "content_preview": "第四章 安全规范 > 4.3 禁止操作清单\n\t\n禁止屏蔽安全门开关\t可能导致人员重伤或死亡\n禁止在自动模式下手动操作\tPLC程序冲突可能导致设备损坏\n禁止超过最大注射量生产\t导致螺杆过载断裂\n禁止在无冷却水情况下加热\t导致料筒变形报废\n禁止擅自修改PLC参数\t导致生产工艺失控"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "目录",
+    "chunk_type": "text",
+    "content_len": 109,
+    "content_preview": "目录\n[打开Word后，右键此处 → 更新域，即可自动生成目录]\n注塑机故障码手册\n本手册收录HTF1200型注塑机常见故障码，包含电气系统故障（E系列）、报警信息（AL系列）及压力系统故障（P系列）三大类，共21条。"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第一章 电气系统故障（E系列） > E01 - 加热器断路",
+    "chunk_type": "table",
+    "content_len": 91,
+    "content_preview": "第一章 电气系统故障（E系列） > E01 - 加热器断路\n可能原因\t加热圈电阻值异常（正常15-25Ω）\n解决方案\t1.万用表测量加热圈电阻 2.更换断路加热圈 3.检查固态继电器"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第一章 电气系统故障（E系列） > E02 - 热电偶故障",
+    "chunk_type": "table",
+    "content_len": 86,
+    "content_preview": "第一章 电气系统故障（E系列） > E02 - 热电偶故障\n可能原因\t温度显示----或跳变\n解决方案\t1.检查热电偶接线端子是否松动 2.用标准温度计比对 3.更换热电偶"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第一章 电气系统故障（E系列） > E03 - 电机过载",
+    "chunk_type": "table",
+    "content_len": 90,
+    "content_preview": "第一章 电气系统故障（E系列） > E03 - 电机过载\n可能原因\t电机电流超过额定值120%持续3秒\n解决方案\t1.检查机械传动是否卡滞 2.测量三相电压平衡 3.降低负载后重启"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第一章 电气系统故障（E系列） > E04 - 变频器故障",
+    "chunk_type": "table",
+    "content_len": 91,
+    "content_preview": "第一章 电气系统故障（E系列） > E04 - 变频器故障\n可能原因\t变频器面板显示Err代码\n解决方案\t1.记录Err代码查阅变频器手册 2.断电5分钟后重启 3.联系厂家技术支持"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第一章 电气系统故障（E系列） > E05 - 安全门开关异常",
+    "chunk_type": "table",
+    "content_len": 93,
+    "content_preview": "第一章 电气系统故障（E系列） > E05 - 安全门开关异常\n可能原因\t前后安全门行程开关信号不一致\n解决方案\t1.检查安全门是否完全关闭 2.清洁行程开关触点 3.更换损坏的行程开关"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第一章 电气系统故障（E系列） > E06 - 接近开关失效",
+    "chunk_type": "table",
+    "content_len": 91,
+    "content_preview": "第一章 电气系统故障（E系列） > E06 - 接近开关失效\n可能原因\tPLC未检测到到位信号\n解决方案\t1.检查接近开关指示灯 2.调整感应距离(正常3-5mm) 3.更换接近开关"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第一章 电气系统故障（E系列） > E07 - 电磁阀卡死",
+    "chunk_type": "table",
+    "content_len": 82,
+    "content_preview": "第一章 电气系统故障（E系列） > E07 - 电磁阀卡死\n可能原因\t阀芯不动作或动作缓慢\n解决方案\t1.拆洗阀芯及阀套 2.检查液压油清洁度 3.更换磨损的电磁阀"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第一章 电气系统故障（E系列） > E08 - 编码器信号丢失",
+    "chunk_type": "table",
+    "content_len": 93,
+    "content_preview": "第一章 电气系统故障（E系列） > E08 - 编码器信号丢失\n可能原因\t位置显示异常或归零\n解决方案\t1.检查编码器联轴器是否松动 2.测量供电电压(DC5V/24V) 3.更换编码器"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第二章 报警信息（AL系列） > AL-01 - 料筒温度偏高",
+    "chunk_type": "table",
+    "content_len": 92,
+    "content_preview": "第二章 报警信息（AL系列） > AL-01 - 料筒温度偏高\n可能原因\t实际温度>设定值+15度\n解决方案\t1.检查冷却风扇是否运转 2.降低该段加热功率 3.检查热电偶是否紧贴料筒"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第二章 报警信息（AL系列） > AL-02 - 液压油温过高",
+    "chunk_type": "table",
+    "content_len": 79,
+    "content_preview": "第二章 报警信息（AL系列） > AL-02 - 液压油温过高\n可能原因\t油温>55度\n解决方案\t1.检查冷却水流量 2.清洗冷却器水垢 3.降低系统工作压力"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第二章 报警信息（AL系列） > AL-03 - 润滑油不足",
+    "chunk_type": "table",
+    "content_len": 84,
+    "content_preview": "第二章 报警信息（AL系列） > AL-03 - 润滑油不足\n可能原因\t润滑泵压力<0.5MPa\n解决方案\t1.补充润滑油 2.检查润滑管路是否堵塞 3.检查润滑泵电机"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第二章 报警信息（AL系列） > AL-04 - 料斗缺料",
+    "chunk_type": "table",
+    "content_len": 90,
+    "content_preview": "第二章 报警信息（AL系列） > AL-04 - 料斗缺料\n可能原因\t光电传感器检测不到原料\n解决方案\t1.及时补充原料 2.检查光电传感器镜片是否被灰尘遮挡 3.调整传感器灵敏度"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第二章 报警信息（AL系列） > AL-05 - 模具温度异常",
+    "chunk_type": "table",
+    "content_len": 89,
+    "content_preview": "第二章 报警信息（AL系列） > AL-05 - 模具温度异常\n可能原因\t模温机显示温度偏差>10度\n解决方案\t1.检查模温机循环水 2.检查模具冷却水道是否堵塞 3.维修模温机"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第二章 报警信息（AL系列） > AL-06 - 注射时间过长",
+    "chunk_type": "table",
+    "content_len": 84,
+    "content_preview": "第二章 报警信息（AL系列） > AL-06 - 注射时间过长\n可能原因\t实际注射时间>设定值+2秒\n解决方案\t1.检查喷嘴是否堵塞 2.提高注射速度 3.升高料筒温度"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第二章 报警信息（AL系列） > AL-07 - 储料不足",
+    "chunk_type": "table",
+    "content_len": 84,
+    "content_preview": "第二章 报警信息（AL系列） > AL-07 - 储料不足\n可能原因\t螺杆回退位置未达到设定值\n解决方案\t1.检查料斗下料是否顺畅 2.增加背压 3.检查止逆环是否磨损"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第二章 报警信息（AL系列） > AL-08 - 液压油位低",
+    "chunk_type": "table",
+    "content_len": 86,
+    "content_preview": "第二章 报警信息（AL系列） > AL-08 - 液压油位低\n可能原因\t油箱液位低于下限\n解决方案\t1.补充46号抗磨液压油 2.检查是否有泄漏点 3.修复泄漏后补充至中位"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第三章 压力系统故障（P系列） > P01 - 注射压力不足",
+    "chunk_type": "table",
+    "content_len": 89,
+    "content_preview": "第三章 压力系统故障（P系列） > P01 - 注射压力不足\n可能原因\t实际注射压力<设定值-10MPa\n解决方案\t1.检查比例压力阀线圈 2.清洗比例阀 3.检查液压泵磨损情况"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第三章 压力系统故障（P系列） > P02 - 锁模力不足",
+    "chunk_type": "table",
+    "content_len": 84,
+    "content_preview": "第三章 压力系统故障（P系列） > P02 - 锁模力不足\n可能原因\t锁模油缸压力<设定值\n解决方案\t1.检查锁模油缸密封圈 2.调整锁模压力补偿 3.检查液压管路泄漏"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第三章 压力系统故障（P系列） > P03 - 保压不稳定",
+    "chunk_type": "table",
+    "content_len": 85,
+    "content_preview": "第三章 压力系统故障（P系列） > P03 - 保压不稳定\n可能原因\t保压阶段压力波动>5MPa\n解决方案\t1.检查蓄能器氮气压力 2.检查比例阀响应 3.PID参数优化"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第三章 压力系统故障（P系列） > P04 - 背压异常",
+    "chunk_type": "table",
+    "content_len": 78,
+    "content_preview": "第三章 压力系统故障（P系列） > P04 - 背压异常\n可能原因\t背压无法建立或过高\n解决方案\t1.检查背压调节阀 2.清洁液压先导阀 3.校准压力传感器"
+  },
+  {
+    "source": "02_故障码手册.docx",
+    "page": 1,
+    "heading_path": "第三章 压力系统故障（P系列） > P05 - 射胶压力冲击",
+    "chunk_type": "table",
+    "content_len": 86,
+    "content_preview": "第三章 压力系统故障（P系列） > P05 - 射胶压力冲击\n可能原因\t注射起始阶段压力峰值过高\n解决方案\t1.调整注射加速度曲线 2.检查止逆环密封 3.降低注射起始速度"
+  },
+  {
+    "source": "03_维保操作规范.docx",
+    "page": 1,
+    "heading_path": "目录",
+    "chunk_type": "text",
+    "content_len": 42,
+    "content_preview": "目录\n[打开Word后，右键此处 → 更新域，即可自动生成目录]\n注塑机维保操作规范"
+  },
+  {
+    "source": "03_维保操作规范.docx",
+    "page": 1,
+    "heading_path": "第一章 日常维保（每班次）",
+    "chunk_type": "table",
+    "content_len": 211,
+    "content_preview": "第一章 日常维保（每班次）\n检查项目\t方法\t合格标准\t异常处理\n检查液压油位\t目视\t油标中位以上\t补充46号抗磨液压油\n检查润滑油量\t目视\t油位在上限与下限之间\t补充导轨润滑油\n清洁模具表面\t手动\t无残留塑料、无油污\t使用铜刷和抹布\n检查安全门功能\t功能测试\t开关门时机器立即停止或允许启动\t报修\n检"
+  },
+  {
+    "source": "03_维保操作规范.docx",
+    "page": 1,
+    "heading_path": "第二章 周度维保",
+    "chunk_type": "table",
+    "content_len": 160,
+    "content_preview": "第二章 周度维保\n检查项目\t方法\t合格标准\t异常处理\n检查各紧固螺栓\t扳手\t无松动\t按扭矩要求紧固\n清洁液压油冷却器\t手动\t翅片无灰尘堵塞\t压缩空气吹扫\n检查皮带张紧度\t张力计\t挠度8-12mm\t调整电机底座\n润滑拉杆及导轨\t手动\t表面均匀油膜\t涂抹润滑脂\n检查电气接线端子\t目视+螺丝刀\t无松动、无"
+  },
+  {
+    "source": "03_维保操作规范.docx",
+    "page": 1,
+    "heading_path": "第三章 月度维保",
+    "chunk_type": "table",
+    "content_len": 181,
+    "content_preview": "第三章 月度维保\n检查项目\t方法\t合格标准\t异常处理\n更换液压油滤芯\t更换\t滤芯使用<=500小时\t更换新滤芯\n检查螺杆磨损\t测量\t螺杆与料筒间隙<=0.3mm\t超差则更换螺杆\n校准温度传感器\t标准温度计比对\t偏差<=正负2度\t修正或更换热电偶\n检查止逆环\t拆卸检查\t密封面光滑无凹槽\t磨损则更换\n测"
+  },
+  {
+    "source": "03_维保操作规范.docx",
+    "page": 1,
+    "heading_path": "第四章 季度维保",
+    "chunk_type": "table",
+    "content_len": 184,
+    "content_preview": "第四章 季度维保\n检查项目\t方法\t合格标准\t异常处理\n更换液压油\t更换\t油质清亮无乳化\t更换46号抗磨液压油，清洗油箱\n检查电机绝缘\t兆欧表\t绝缘电阻>=10MΩ\t烘干或更换电机\n校验压力传感器\t标准压力表比对\t偏差<=1%FS\t校准或更换传感器\n清洗液压阀组\t拆卸清洗\t阀芯运动灵活无卡滞\t超声波清"
+  },
+  {
+    "source": "01_注塑机操作手册.pdf",
+    "page": 1,
+    "heading_path": "01_注塑机操作手册.pdf",
+    "chunk_type": "table",
+    "content_len": 124,
+    "content_preview": "01_注塑机操作手册.pdf\n参数\t数值\t单位\n螺杆直径\t80/90/100\tmm\n最大锁模力\t1200\t吨\n注射压力\t180\tMPa\n注射速率\t450\tcm³/s\n螺杆转速\t0-120\trpm\n加热功率\t45\tkW\n工作电压\t380\tV/50Hz"
+  },
+  {
+    "source": "01_注塑机操作手册.pdf",
+    "page": 1,
+    "heading_path": "",
+    "chunk_type": "text",
+    "content_len": 8,
+    "content_preview": "\n注塑机操作手册"
+  },
+  {
+    "source": "01_注塑机操作手册.pdf",
+    "page": 1,
+    "heading_path": "第一章 设备概述 > 1.1 设备简介",
+    "chunk_type": "text",
+    "content_len": 125,
+    "content_preview": "第一章 设备概述 > 1.1 设备简介\nHTF1200型卧式注塑机是本公司主力生产设备，采用伺服电机驱动和双缸注射系统，适用于热塑性塑料的精密\n成型加工。最大锁模力1200吨，注射量2000~8000克，可加工PP、ABS、PA、PC等常用工程塑料。"
+  },
+  {
+    "source": "01_注塑机操作手册.pdf",
+    "page": 1,
+    "heading_path": "第一章 设备概述 > 1.2 主要技术参数",
+    "chunk_type": "text",
+    "content_len": 35,
+    "content_preview": "第一章 设备概述 > 1.2 主要技术参数\n参数\n数值\n单位\n螺杆直径"
+  },
+  {
+    "source": "01_注塑机操作手册.pdf",
+    "page": 1,
+    "heading_path": "80/90/100",
+    "chunk_type": "text",
+    "content_len": 58,
+    "content_preview": "80/90/100\nmm\n最大锁模力\n1200\n吨\n注射压力\n180\nMPa\n注射速率\n450\ncm³/s\n螺杆转速"
+  },
+  {
+    "source": "01_注塑机操作手册.pdf",
+    "page": 1,
+    "heading_path": "0-120",
+    "chunk_type": "text",
+    "content_len": 36,
+    "content_preview": "0-120\nrpm\n加热功率\n45\nkW\n工作电压\n380\nV/50Hz"
+  },
+  {
+    "source": "01_注塑机操作手册.pdf",
+    "page": 2,
+    "heading_path": "01_注塑机操作手册.pdf",
+    "chunk_type": "table",
+    "content_len": 114,
+    "content_preview": "01_注塑机操作手册.pdf\n加热区段\t设定温度(度)\t允许偏差(度)\n第一段(料斗侧)\t180-200\t±5\n第二段\t200-220\t±5\n第三段\t220-240\t±5\n第四段\t230-250\t±5\n喷嘴\t240-260\t±3"
+  },
+  {
+    "source": "01_注塑机操作手册.pdf",
+    "page": 2,
+    "heading_path": "01_注塑机操作手册.pdf",
+    "chunk_type": "table",
+    "content_len": 120,
+    "content_preview": "01_注塑机操作手册.pdf\n参数\t数值(MPa)\t说明\n注射压力\t80-180\t根据材料和模具调整\n保压压力\t60-120\t一般为注射压力的60%-80%\n背压\t5-15\t螺杆回退时料筒内压力\n锁模压力\t800-1200\t根据模具面积计算"
+  },
+  {
+    "source": "01_注塑机操作手册.pdf",
+    "page": 2,
+    "heading_path": "01_注塑机操作手册.pdf",
+    "chunk_type": "table",
+    "content_len": 125,
+    "content_preview": "01_注塑机操作手册.pdf\n禁止操作\t后果\n屏蔽安全门开关\t可能导致人员重伤或死亡\n自动模式下手动操作\tPLC程序冲突可能导致设备损坏\n超过最大注射量生产\t导致螺杆过载断裂\n无冷却水情况下加热\t导致料筒变形报废\n擅自修改PLC参数\t导致生产工艺失控"
+  },
+  {
+    "source": "01_注塑机操作手册.pdf",
+    "page": 2,
+    "heading_path": "4. 断开主电源，做好交接记录。",
+    "chunk_type": "text",
+    "content_len": 22,
+    "content_preview": "4. 断开主电源，做好交接记录。\n第 1 页"
+  },
+  {
+    "source": "01_注塑机操作手册.pdf",
+    "page": 2,
+    "heading_path": "第三章 参数设置 > 3.1 温度参数",
+    "chunk_type": "text",
+    "content_len": 119,
+    "content_preview": "第三章 参数设置 > 3.1 温度参数\n加热区段\n设定温度(度)\n允许偏差(度)\n第一段(料斗侧)\n180-200\n±5\n第二段\n200-220\n±5\n第三段\n220-240\n±5\n第四段\n230-250\n±5\n喷嘴\n240-260\n±3"
+  },
+  {
+    "source": "01_注塑机操作手册.pdf",
+    "page": 2,
+    "heading_path": "第三章 参数设置 > 3.2 压力参数",
+    "chunk_type": "text",
+    "content_len": 38,
+    "content_preview": "第三章 参数设置 > 3.2 压力参数\n参数\n数值(MPa)\n说明\n注射压力"
+  },
+  {
+    "source": "01_注塑机操作手册.pdf",
+    "page": 2,
+    "heading_path": "80-180",
+    "chunk_type": "text",
+    "content_len": 21,
+    "content_preview": "80-180\n根据材料和模具调整\n保压压力"
+  },
+  {
+    "source": "01_注塑机操作手册.pdf",
+    "page": 2,
+    "heading_path": "60-120",
+    "chunk_type": "text",
+    "content_len": 25,
+    "content_preview": "60-120\n一般为注射压力的60%-80%\n背压"
+  },
+  {
+    "source": "01_注塑机操作手册.pdf",
+    "page": 2,
+    "heading_path": "5-15",
+    "chunk_type": "text",
+    "content_len": 38,
+    "content_preview": "5-15\n螺杆回退时料筒内压力\n锁模压力\n800-1200\n根据模具面积计算"
+  },
+  {
+    "source": "01_注塑机操作手册.pdf",
+    "page": 2,
+    "heading_path": "第四章 安全规范 > 4.1 个人防护要求",
+    "chunk_type": "text",
+    "content_len": 56,
+    "content_preview": "第四章 安全规范 > 4.1 个人防护要求\n操作人员必须穿戴防烫手套、安全鞋和护目镜。禁止佩戴手套操作控制面板。"
+  },
+  {
+    "source": "01_注塑机操作手册.pdf",
+    "page": 2,
+    "heading_path": "第四章 安全规范 > 4.2 紧急停止程序",
+    "chunk_type": "text",
+    "content_len": 126,
+    "content_preview": "第四章 安全规范 > 4.2 紧急停止程序\n发生以下情况立即按下急停按钮：1.模具或机械部件出现异常响声或振动。2.料筒温度失控持续上升。3.液压\n管路爆裂或严重泄漏。4.人员或异物进入合模区域。急停后需由班组长和维修人员共同确认故障排除后方可复\n位。"
+  },
+  {
+    "source": "01_注塑机操作手册.pdf",
+    "page": 2,
+    "heading_path": "第四章 安全规范 > 4.3 禁止操作清单",
+    "chunk_type": "text",
+    "content_len": 138,
+    "content_preview": "第四章 安全规范 > 4.3 禁止操作清单\n禁止操作\n后果\n屏蔽安全门开关\n可能导致人员重伤或死亡\n自动模式下手动操作\nPLC程序冲突可能导致设备损坏\n超过最大注射量生产\n导致螺杆过载断裂\n无冷却水情况下加热\n导致料筒变形报废\n擅自修改PLC参数\n导致生产工艺失控\n第 2 页"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 1,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 80,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t加热圈电阻值异常（正常15-25Ω）\n解决方案\t1.万用表测量加热圈电阻 2.更换断路加热圈 3.检查固态继电器"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 1,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 75,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t温度显示----或跳变\n解决方案\t1.检查热电偶接线端子是否松动 2.用标准温度计比对 3.更换热电偶"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 1,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 80,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t电机电流超过额定值120%持续3秒\n解决方案\t1.检查机械传动是否卡滞 2.测量三相电压平衡 3.降低负载后重启"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 1,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 78,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t变频器面板显示Err代码\n解决方案\t1.记录Err代码查阅变频器手册 2.断电5分钟后重启 3.联系厂家技术"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 1,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 78,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t前后安全门行程开关信号不一致\n解决方案\t1.检查安全门是否完全关闭 2.清洁行程开关触点 3.更换损坏的行程"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 1,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 78,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\tPLC未检测到到位信号\n解决方案\t1.检查接近开关指示灯 2.调整感应距离(正常3-5mm) 3.更换接近开"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 1,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 18,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 1,
+    "heading_path": "",
+    "chunk_type": "text",
+    "content_len": 9,
+    "content_preview": "\n注塑机故障码手册"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 1,
+    "heading_path": "第一章 电气系统故障（E系列）",
+    "chunk_type": "text",
+    "content_len": 62,
+    "content_preview": "第一章 电气系统故障（E系列）\nE01 - 加热器断路\n项目\n内容\n可能原因\n加热圈电阻值异常（正常15-25Ω）\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 1,
+    "heading_path": "1.万用表测量加热圈电阻 2.更换断路加热圈 3.检查固态继电器",
+    "chunk_type": "text",
+    "content_len": 72,
+    "content_preview": "1.万用表测量加热圈电阻 2.更换断路加热圈 3.检查固态继电器\nE02 - 热电偶故障\n项目\n内容\n可能原因\n温度显示----或跳变\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 1,
+    "heading_path": "1.检查热电偶接线端子是否松动 2.用标准温度计比对 3.更换热电偶",
+    "chunk_type": "text",
+    "content_len": 79,
+    "content_preview": "1.检查热电偶接线端子是否松动 2.用标准温度计比对 3.更换热电偶\nE03 - 电机过载\n项目\n内容\n可能原因\n电机电流超过额定值120%持续3秒\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 1,
+    "heading_path": "1.检查机械传动是否卡滞 2.测量三相电压平衡 3.降低负载后重启",
+    "chunk_type": "text",
+    "content_len": 74,
+    "content_preview": "1.检查机械传动是否卡滞 2.测量三相电压平衡 3.降低负载后重启\nE04 - 变频器故障\n项目\n内容\n可能原因\n变频器面板显示Err代码\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 1,
+    "heading_path": "1.记录Err代码查阅变频器手册 2.断电5分钟后重启 3.联系厂家技术支持",
+    "chunk_type": "text",
+    "content_len": 83,
+    "content_preview": "1.记录Err代码查阅变频器手册 2.断电5分钟后重启 3.联系厂家技术支持\nE05 - 安全门开关异常\n项目\n内容\n可能原因\n前后安全门行程开关信号不一致\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 1,
+    "heading_path": "1.检查安全门是否完全关闭 2.清洁行程开关触点 3.更换损坏的行程开关",
+    "chunk_type": "text",
+    "content_len": 77,
+    "content_preview": "1.检查安全门是否完全关闭 2.清洁行程开关触点 3.更换损坏的行程开关\nE06 - 接近开关失效\n项目\n内容\n可能原因\nPLC未检测到到位信号\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 2,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 65,
+    "content_preview": "02_故障码手册.pdf\n可能原因\t阀芯不动作或动作缓慢\n解决方案\t1.拆洗阀芯及阀套 2.检查液压油清洁度 3.更换磨损的电磁阀"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 2,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 78,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t位置显示异常或归零\n解决方案\t1.检查编码器联轴器是否松动 2.测量供电电压(DC5V/24V) 3.更换编"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 2,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 76,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t实际温度>设定值+15度\n解决方案\t1.检查冷却风扇是否运转 2.降低该段加热功率 3.检查热电偶是否紧"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 2,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 66,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t油温>55度\n解决方案\t1.检查冷却水流量 2.清洗冷却器水垢 3.降低系统工作压力"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 2,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 72,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t润滑泵压力<0.5MPa\n解决方案\t1.补充润滑油 2.检查润滑管路是否堵塞 3.检查润滑泵电机"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 2,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 75,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t光电传感器检测不到原料\n解决方案\t1.及时补充原料 2.检查光电传感器镜片是否被灰尘遮挡 3.调整传感"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 2,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 76,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t模温机显示温度偏差>10度\n解决方案\t1.检查模温机循环水 2.检查模具冷却水道是否堵塞 3.维修模温机"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 2,
+    "heading_path": "1.检查接近开关指示灯 2.调整感应距离(正常3-5mm) 3.更换接近开关",
+    "chunk_type": "text",
+    "content_len": 83,
+    "content_preview": "1.检查接近开关指示灯 2.调整感应距离(正常3-5mm) 3.更换接近开关\nE07 - 电磁阀卡死\n项目\n内容\n第 1 页\n可能原因\n阀芯不动作或动作缓慢\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 2,
+    "heading_path": "1.拆洗阀芯及阀套 2.检查液压油清洁度 3.更换磨损的电磁阀",
+    "chunk_type": "text",
+    "content_len": 71,
+    "content_preview": "1.拆洗阀芯及阀套 2.检查液压油清洁度 3.更换磨损的电磁阀\nE08 - 编码器信号丢失\n项目\n内容\n可能原因\n位置显示异常或归零\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 2,
+    "heading_path": "第二章 报警信息（AL系列）",
+    "chunk_type": "text",
+    "content_len": 58,
+    "content_preview": "第二章 报警信息（AL系列）\nAL-01 - 料筒温度偏高\n项目\n内容\n可能原因\n实际温度>设定值+15度\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 2,
+    "heading_path": "1.检查冷却风扇是否运转 2.降低该段加热功率 3.检查热电偶是否紧贴料筒",
+    "chunk_type": "text",
+    "content_len": 75,
+    "content_preview": "1.检查冷却风扇是否运转 2.降低该段加热功率 3.检查热电偶是否紧贴料筒\nAL-02 - 液压油温过高\n项目\n内容\n可能原因\n油温>55度\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 2,
+    "heading_path": "1.检查冷却水流量 2.清洗冷却器水垢 3.降低系统工作压力",
+    "chunk_type": "text",
+    "content_len": 73,
+    "content_preview": "1.检查冷却水流量 2.清洗冷却器水垢 3.降低系统工作压力\nAL-03 - 润滑油不足\n项目\n内容\n可能原因\n润滑泵压力<0.5MPa\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 2,
+    "heading_path": "1.补充润滑油 2.检查润滑管路是否堵塞 3.检查润滑泵电机",
+    "chunk_type": "text",
+    "content_len": 71,
+    "content_preview": "1.补充润滑油 2.检查润滑管路是否堵塞 3.检查润滑泵电机\nAL-04 - 料斗缺料\n项目\n内容\n可能原因\n光电传感器检测不到原料\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 2,
+    "heading_path": "1.及时补充原料 2.检查光电传感器镜片是否被灰尘遮挡 3.调整传感器灵敏度",
+    "chunk_type": "text",
+    "content_len": 83,
+    "content_preview": "1.及时补充原料 2.检查光电传感器镜片是否被灰尘遮挡 3.调整传感器灵敏度\nAL-05 - 模具温度异常\n项目\n内容\n可能原因\n模温机显示温度偏差>10度\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 3,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 71,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t实际注射时间>设定值+2秒\n解决方案\t1.检查喷嘴是否堵塞 2.提高注射速度 3.升高料筒温度"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 3,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 73,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t螺杆回退位置未达到设定值\n解决方案\t1.检查料斗下料是否顺畅 2.增加背压 3.检查止逆环是否磨损"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 3,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 73,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t油箱液位低于下限\n解决方案\t1.补充46号抗磨液压油 2.检查是否有泄漏点 3.修复泄漏后补充至中"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 3,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 77,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t实际注射压力<设定值-10MPa\n解决方案\t1.检查比例压力阀线圈 2.清洗比例阀 3.检查液压泵磨损情况"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 3,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 73,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t锁模油缸压力<设定值\n解决方案\t1.检查锁模油缸密封圈 2.调整锁模压力补偿 3.检查液压管路泄漏"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 3,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 74,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t保压阶段压力波动>5MPa\n解决方案\t1.检查蓄能器氮气压力 2.检查比例阀响应 3.PID参数优化"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 3,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 68,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t背压无法建立或过高\n解决方案\t1.检查背压调节阀 2.清洁液压先导阀 3.校准压力传感器"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 3,
+    "heading_path": "1.检查模温机循环水 2.检查模具冷却水道是否堵塞 3.维修模温机",
+    "chunk_type": "text",
+    "content_len": 84,
+    "content_preview": "1.检查模温机循环水 2.检查模具冷却水道是否堵塞 3.维修模温机\nAL-06 - 注射时间过长\n第 2 页\n项目\n内容\n可能原因\n实际注射时间>设定值+2秒\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 3,
+    "heading_path": "1.检查喷嘴是否堵塞 2.提高注射速度 3.升高料筒温度",
+    "chunk_type": "text",
+    "content_len": 70,
+    "content_preview": "1.检查喷嘴是否堵塞 2.提高注射速度 3.升高料筒温度\nAL-07 - 储料不足\n项目\n内容\n可能原因\n螺杆回退位置未达到设定值\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 3,
+    "heading_path": "1.检查料斗下料是否顺畅 2.增加背压 3.检查止逆环是否磨损",
+    "chunk_type": "text",
+    "content_len": 70,
+    "content_preview": "1.检查料斗下料是否顺畅 2.增加背压 3.检查止逆环是否磨损\nAL-08 - 液压油位低\n项目\n内容\n可能原因\n油箱液位低于下限\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 3,
+    "heading_path": "第三章 压力系统故障（P系列）",
+    "chunk_type": "text",
+    "content_len": 61,
+    "content_preview": "第三章 压力系统故障（P系列）\nP01 - 注射压力不足\n项目\n内容\n可能原因\n实际注射压力<设定值-10MPa\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 3,
+    "heading_path": "1.检查比例压力阀线圈 2.清洗比例阀 3.检查液压泵磨损情况",
+    "chunk_type": "text",
+    "content_len": 70,
+    "content_preview": "1.检查比例压力阀线圈 2.清洗比例阀 3.检查液压泵磨损情况\nP02 - 锁模力不足\n项目\n内容\n可能原因\n锁模油缸压力<设定值\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 3,
+    "heading_path": "1.检查锁模油缸密封圈 2.调整锁模压力补偿 3.检查液压管路泄漏",
+    "chunk_type": "text",
+    "content_len": 75,
+    "content_preview": "1.检查锁模油缸密封圈 2.调整锁模压力补偿 3.检查液压管路泄漏\nP03 - 保压不稳定\n项目\n内容\n可能原因\n保压阶段压力波动>5MPa\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 3,
+    "heading_path": "1.检查蓄能器氮气压力 2.检查比例阀响应 3.PID参数优化",
+    "chunk_type": "text",
+    "content_len": 68,
+    "content_preview": "1.检查蓄能器氮气压力 2.检查比例阀响应 3.PID参数优化\nP04 - 背压异常\n项目\n内容\n可能原因\n背压无法建立或过高\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 4,
+    "heading_path": "02_故障码手册.pdf",
+    "chunk_type": "table",
+    "content_len": 74,
+    "content_preview": "02_故障码手册.pdf\n项目\t内容\n可能原因\t注射起始阶段压力峰值过高\n解决方案\t1.调整注射加速度曲线 2.检查止逆环密封 3.降低注射起始速度"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 4,
+    "heading_path": "1.检查背压调节阀 2.清洁液压先导阀 3.校准压力传感器",
+    "chunk_type": "text",
+    "content_len": 77,
+    "content_preview": "1.检查背压调节阀 2.清洁液压先导阀 3.校准压力传感器\n第 3 页\nP05 - 射胶压力冲击\n项目\n内容\n可能原因\n注射起始阶段压力峰值过高\n解决方案"
+  },
+  {
+    "source": "02_故障码手册.pdf",
+    "page": 4,
+    "heading_path": "1.调整注射加速度曲线 2.检查止逆环密封 3.降低注射起始速度",
+    "chunk_type": "text",
+    "content_len": 38,
+    "content_preview": "1.调整注射加速度曲线 2.检查止逆环密封 3.降低注射起始速度\n第 4 页"
+  },
+  {
+    "source": "03_维保操作规范.pdf",
+    "page": 1,
+    "heading_path": "03_维保操作规范.pdf",
+    "chunk_type": "table",
+    "content_len": 211,
+    "content_preview": "03_维保操作规范.pdf\n检查项目\t方法\t合格标准\t异常处理\n检查液压油位\t目视\t油标中位以上\t补充46号抗磨液压油\n检查润滑油量\t目视\t油位在上限与下限之间\t补充导轨润滑油\n清洁模具表面\t手动\t无残留塑料、无油污\t使用铜刷和抹布\n检查安全门功能\t功能测试\t开关门时机器立即停止或允\t报许修启动\n检"
+  },
+  {
+    "source": "03_维保操作规范.pdf",
+    "page": 1,
+    "heading_path": "03_维保操作规范.pdf",
+    "chunk_type": "table",
+    "content_len": 165,
+    "content_preview": "03_维保操作规范.pdf\n检查项目\t方法\t合格标准\t异常处理\n检查各紧固螺栓\t扳手\t无松动\t按扭矩要求紧固\n清洁液压油冷却器\t手动\t翅片无灰尘堵塞\t压缩空气吹扫\n检查皮带张紧度\t张力计\t挠度8-12mm\t调整电机底座\n润滑拉杆及导轨\t手动\t表面均匀油膜\t涂抹润滑脂\n检查电气接线端子\t目视+螺丝刀\t"
+  },
+  {
+    "source": "03_维保操作规范.pdf",
+    "page": 1,
+    "heading_path": "03_维保操作规范.pdf",
+    "chunk_type": "table",
+    "content_len": 186,
+    "content_preview": "03_维保操作规范.pdf\n检查项目\t方法\t合格标准\t异常处理\n更换液压油滤芯\t更换\t滤芯使用<=500小时\t更换新滤芯\n检查螺杆磨损\t测量\t螺杆与料筒间隙<=0.3mm\t超差则更换螺杆\n校准温度传感器\t标准温度计比对\t偏差<=正负2度\t修正或更换热电偶\n检查止逆环\t拆卸检查\t密封面光滑无凹槽\t磨损"
+  },
+  {
+    "source": "03_维保操作规范.pdf",
+    "page": 1,
+    "heading_path": "03_维保操作规范.pdf",
+    "chunk_type": "table",
+    "content_len": 154,
+    "content_preview": "03_维保操作规范.pdf\n检查项目\t方法\t合格标准\t异常处理\n更换液压油\t更换\t油质清亮无乳化\t更换46号抗磨液压油\n检查电机绝缘\t兆欧表\t绝缘电阻>=10MΩ\t烘干或更换电机\n校验压力传感器\t标准压力表比对\t偏差<=1%FS\t校准或更换传感器\n清洗液压阀组\t拆卸清洗\t阀芯运动灵活无卡滞\t超声波清"
+  },
+  {
+    "source": "03_维保操作规范.pdf",
+    "page": 1,
+    "heading_path": "",
+    "chunk_type": "text",
+    "content_len": 10,
+    "content_preview": "\n注塑机维保操作规范"
+  },
+  {
+    "source": "03_维保操作规范.pdf",
+    "page": 1,
+    "heading_path": "第一章 日常维保（每班次）",
+    "chunk_type": "text",
+    "content_len": 211,
+    "content_preview": "第一章 日常维保（每班次）\n检查项目\n方法\n合格标准\n异常处理\n检查液压油位\n目视\n油标中位以上\n补充46号抗磨液压油\n检查润滑油量\n目视\n油位在上限与下限之间\n补充导轨润滑油\n清洁模具表面\n手动\n无残留塑料、无油污\n使用铜刷和抹布\n检查安全门功能\n功能测试\n开关门时机器立即停止或允许启动\n报修\n检"
+  },
+  {
+    "source": "03_维保操作规范.pdf",
+    "page": 1,
+    "heading_path": "第二章 周度维保",
+    "chunk_type": "text",
+    "content_len": 160,
+    "content_preview": "第二章 周度维保\n检查项目\n方法\n合格标准\n异常处理\n检查各紧固螺栓\n扳手\n无松动\n按扭矩要求紧固\n清洁液压油冷却器\n手动\n翅片无灰尘堵塞\n压缩空气吹扫\n检查皮带张紧度\n张力计\n挠度8-12mm\n调整电机底座\n润滑拉杆及导轨\n手动\n表面均匀油膜\n涂抹润滑脂\n检查电气接线端子\n目视+螺丝刀\n无松动、无"
+  },
+  {
+    "source": "03_维保操作规范.pdf",
+    "page": 1,
+    "heading_path": "第三章 月度维保",
+    "chunk_type": "text",
+    "content_len": 180,
+    "content_preview": "第三章 月度维保\n检查项目\n方法\n合格标准\n异常处理\n更换液压油滤芯\n更换\n滤芯使用<=500小时\n更换新滤芯\n检查螺杆磨损\n测量\n螺杆与料筒间隙<=0.3mm\n超差则更换螺杆\n校准温度传感器\n标准温度计比对偏差<=正负2度\n修正或更换热电偶\n检查止逆环\n拆卸检查\n密封面光滑无凹槽\n磨损则更换\n测试"
+  },
+  {
+    "source": "03_维保操作规范.pdf",
+    "page": 2,
+    "heading_path": "03_维保操作规范.pdf",
+    "chunk_type": "table",
+    "content_len": 43,
+    "content_preview": "03_维保操作规范.pdf\nPLC系统备份\t程序备份\t备份成功校验通过\t导出程序并归档"
+  },
+  {
+    "source": "03_维保操作规范.pdf",
+    "page": 2,
+    "heading_path": "第四章 季度维保",
+    "chunk_type": "text",
+    "content_len": 195,
+    "content_preview": "第四章 季度维保\n检查项目\n方法\n合格标准\n异常处理\n更换液压油\n更换\n油质清亮无乳化\n更换46号抗磨液压油，清洗油箱\n检查电机绝缘\n兆欧表\n绝缘电阻>=10MΩ\n烘干或更换电机\n校验压力传感器\n标准压力表比对偏差<=1%FS\n校准或更换传感器\n清洗液压阀组\n拆卸清洗\n阀芯运动灵活无卡滞\n超声波清洗"
+  }
+]
