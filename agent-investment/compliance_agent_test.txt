@@ -1,0 +1,9 @@
+Decision: APPROVED
+
+Reason:
+{
+  "decision": "APPROVED",
+  "reason": "贵州茅台（600519）为上交所主板蓝筹股，AAA评级，无内幕信息、关联交易、反洗钱及信息披露风险；产品风险等级与投资者匹配；未触发创业板/ST等特殊板块限制；集中度、VaR、杠杆率、流动性等风控指标均在合规红线内。",
+  "compliance_score": 98,
+  "issues": []
+}
