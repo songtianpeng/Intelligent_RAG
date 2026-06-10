@@ -20,6 +20,13 @@ class Settings:
     MYSQL_PASSWORD: str = os.getenv("MYSQL_PASSWORD", "")
     MYSQL_DATABASE: str = os.getenv("MYSQL_DATABASE", "agent_investment")
 
+    # ===== PostgreSQL（LangGraph Checkpoint + 业务数据）=====
+    PG_HOST: str = os.getenv("PG_HOST", "127.0.0.1")
+    PG_PORT: int = int(os.getenv("PG_PORT", "5432"))
+    PG_USER: str = os.getenv("PG_USER", "postgres")
+    PG_PASSWORD: str = os.getenv("PG_PASSWORD", "")
+    PG_DATABASE: str = os.getenv("PG_DATABASE", "postgres")
+
     # ===== Redis =====
     REDIS_HOST: str = os.getenv("REDIS_HOST", "127.0.0.1")
     REDIS_PORT: int = int(os.getenv("REDIS_PORT", "6379"))
@@ -52,6 +59,13 @@ class Settings:
         return (f"mysql+pymysql://{self.MYSQL_USER}:{self.MYSQL_PASSWORD}"
                 f"@{self.MYSQL_HOST}:{self.MYSQL_PORT}/{self.MYSQL_DATABASE}"
                 f"?charset=utf8mb4")
+
+    @property
+    def pg_url(self) -> str:
+        """PostgreSQL 连接（URL 编码密码中的特殊字符）"""
+        from urllib.parse import quote_plus
+        return (f"postgresql://{self.PG_USER}:{quote_plus(self.PG_PASSWORD)}"
+                f"@{self.PG_HOST}:{self.PG_PORT}/{self.PG_DATABASE}")
 
     @property
     def redis_url(self) -> str:

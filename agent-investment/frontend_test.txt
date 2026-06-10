@@ -1,0 +1,11 @@
+Login: 张分析师 | token=570ce9ca
+Chitchat: intent=chitchat | len(answer)=34
+Tool: intent=tool_call | len(answer)=289
+Workflow: intent=workflow | task_id=4620822de04f4b60
+HTML[login(1001)]: OK 
+HTML[login(1002)]: OK 
+HTML[send()]: OK 
+HTML[pendingList()]: OK 
+HTML[myWorkflows()]: OK 
+HTML[chat-box]: OK 
+HTML[sidebar]: OK 
